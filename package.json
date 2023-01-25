@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "build:clean": "rimraf \"./**/dist\"",
+    "build:clean": "rimraf ./api/dist ./setup/dist ./web/dist",
     "build:watch": "lerna run build:watch --parallel; tsc --build",
     "test": "lerna run test --concurrency 2 -- --colors --maxWorkers=4"
   },
