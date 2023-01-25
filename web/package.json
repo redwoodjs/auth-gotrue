@@ -29,6 +29,7 @@
   "devDependencies": {
     "@babel/cli": "7.20.7",
     "@babel/core": "7.20.12",
+    "@testing-library/react-hooks": "8.0.1",
     "@types/react": "17.0.53",
     "gotrue-js": "0.9.29",
     "jest": "29.4.0",
